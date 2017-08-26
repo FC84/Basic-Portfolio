@@ -112,6 +112,13 @@ img.profilepic {
   font-family: Jura, 'Serif', sans-serif, Times, Times New Roman;
 }
 
+#right-content {
+  content 
+  width:300px;
+  padding:0 30px 30px;
+  float:right;
+}
+
 #contactme {    
   background: white;
   margin-top: -2px;
@@ -149,16 +156,22 @@ color:#726E6D;
 
 }
 
+.right-content {
+  float:right;
+  margin-right: -600px;
+}
+
 .connectme {
   float: right;
   background: white;
   width: 185px;
   position: relative;
-  margin-top: -448px;
-  margin-right: -1328px;
+  margin-top: -440px;
+  margin-right: -728px;
   border: 1px solid #707070;
   padding: 20px;
   height: auto;
+  overflow: auto;
     
 }
 
@@ -287,3 +300,241 @@ img.portimage {
 img {
   max-width: 100%;
 }
+
+/* 1920x1080 screen */
+
+@media only screen and (min-width: 981px) and (max-width: 1800px) 
+{ 
+
+.connectme {
+    float: right;
+    background: white;
+    width: 185px;
+    position: relative;
+    margin-top: -440px;
+    margin-right: -250px;
+    border: 1px solid #707070;
+    padding: 20px;
+    height: auto;
+    overflow: auto;
+}
+
+}
+
+/* 980px screen */
+
+@media (max-width: 980px) {
+
+img.profilepic {
+    display: block;
+    display: inline-block;
+    width: 100px;
+    padding-left: 170px;
+}
+
+.about {
+    position: relative;
+    background: white;
+    width: 450px;
+    margin-top: 48px;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 100px border: 2px solid #707070;
+    padding: 19px;
+    height: 400px;
+    overflow: auto;
+}
+
+.connectme {
+    float: right;
+    background: white;
+    width: 185px;
+    position: relative;
+    margin-top: -440px;
+    margin-right: 108px;
+    border: 1px solid #707070;
+    padding: 20px;
+    height: auto;
+    overflow: auto;
+}
+
+}
+
+
+
+/* 768px screen */
+
+@media (max-width: 768px) {
+
+
+.main-header {
+  background: white;
+  border-bottom: 3px solid #C0C0C0;
+}
+
+.header-content {
+  background: white;
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 60px;
+}
+
+.header-left {
+  width:50%;
+  float: left;
+}
+
+.index-nameplate {
+ height: 65px;
+ width: 280px;
+ position: relative;
+ bottom: 0px;
+ margin-top: 0
+}
+
+#FC {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  background:#4aaaa5;
+  padding:15px;
+  color:white;
+  font-family: Jura, 'Serif', sans-serif, Times, Times New Roman;
+}
+
+
+
+.header-right {
+  width: 30%;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float:right;
+  display: inline;
+}
+
+ul li {
+  display:inline;
+  color: #726E6D;
+  border-right: 1px solid #C8C8C8;
+}
+
+li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px;
+  color: #726E6D;
+  font-size: 70%;
+  font-family: Jura, 'Serif', sans-serif, Times, Times New Roman;
+}
+
+.about {
+    position: relative;
+    background: white;
+    width: 430px;
+    margin-top: 11px;
+    margin-right: 0%;
+    margin-left: -85%;
+    padding-bottom: 100px border: 2px solid #707070;
+    padding: 30px;
+    height: 372px;
+    overflow: auto;
+}
+
+.connectme {
+    float: left;
+    background: white;
+    position: relative;
+    margin-right: 661px;
+    margin-top: 0px;
+    border: 1px solid #707070;
+    padding: 0px;
+    height: auto;
+    width: 500px;
+    overflow: auto;
+}
+
+}
+
+
+/* 640px screen */
+
+@media (max-width: 640px) {
+
+#FC {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  background:#4aaaa5;
+  padding:15px;
+  color:white;
+  font-family: Jura, 'Serif', sans-serif, Times, Times New Roman;
+}
+
+
+.header-right {
+  width:70%;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float:right;
+  position: relative;
+  margin-left: 20px;
+  display: inline;
+}
+
+ul li {
+  display:inline;
+  color: #726E6D;
+  border-right: 1px solid #C8C8C8;
+}
+
+li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  color: #726E6D;
+  font-size: 100%;
+  font-family: Jura, 'Serif', sans-serif, Times, Times New Roman;
+}
+
+.about {
+    position: relative;
+    background: white;
+    width: 430px;
+    margin-top: 2px;
+    margin-right: 0%;
+    margin-left: -1%;
+    padding-bottom: 100px border: 2px solid #707070;
+    padding: 30px;
+    height: 372px;
+    overflow: auto;
+
+}
+.connectme {
+    float: left;
+    background: white;
+    position: relative;
+    margin-right: 550px;
+    margin-top: 0px;
+    border: 1px solid #707070;
+    padding: 0px;
+    height: auto;
+    overflow: auto;
+    width: 200px;
+}
+
+
+}
+
+
